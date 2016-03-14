@@ -13,6 +13,10 @@
 # See the License for the specific language governing permissions and
 # limitations under the License.
 #
+# Some inspiration is taken from https://github.com/abramhindle/WebSocketsExamples
+# which is also LICENSE'D under the Apache 2 license by Abram Hindle.
+#
+
 import flask
 from flask import Flask, request, redirect
 from flask_sockets import Sockets
